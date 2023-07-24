@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46ce6bad-61d4-45dc-87ac-c800725021ff">
+  <producedTypes>
+    <objectType typeId="7212261b-095c-4b7a-9f79-93a1336915c3" valueTypeId="e06f5d21-9e77-47eb-a701-e4c555e9b2a6"/>
+    <refType typeId="1882a40b-973c-4853-a2fa-9c8420fb0d82" valueTypeId="f75e672c-a7eb-4cd5-8587-497ccdce65fd"/>
+    <selectionType typeId="a8c8a9ea-1c6b-4802-8b2e-1c405424ddfb" valueTypeId="09bbdc05-f4fd-4557-84ff-f7b2689dfa21"/>
+    <listType typeId="8313ee16-4324-40ee-a2df-547928d8fa26" valueTypeId="a77c182d-dc94-41fb-8a85-ea6d6b004afe"/>
+    <managerType typeId="36ec0e88-48f2-4f00-ad40-b2c649af5eb6" valueTypeId="a263ee49-0e33-4fe1-82a6-4b9b1420d5c6"/>
+  </producedTypes>
+  <name>ДГА_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДГА должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДГА_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДГА_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bbde6644-86fd-41c3-a8d6-81ed190bada5">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДГА_ВидыДолжностей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

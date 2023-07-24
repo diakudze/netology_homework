@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56dceb59-427e-40a0-9f77-3e12b17aad20">
+  <producedTypes>
+    <refType typeId="412c12ca-96cc-40cf-bf91-68398261922b" valueTypeId="9bdca078-d1cd-4eb5-abee-597b62386dcd"/>
+    <listType typeId="84384db2-7083-4a92-a8d8-f8529d300a07" valueTypeId="f9056610-96b0-4c89-9eaa-e7f19430ca51"/>
+    <managerType typeId="07387195-790e-421f-86cc-baa7813ba095" valueTypeId="9238da7e-11c1-402d-a653-d30468f094c2"/>
+  </producedTypes>
+  <name>ДГА_ВидыДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДГА виды должностей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8eebe59c-c1fc-4444-ac63-0ca3b6937df9">
+    <name>МенеджерПоРаботеСКлиентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по работе с клиентами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f3a4bfb-af4d-4bb5-9719-22f43a51bc3a">
+    <name>ГенеральныйДиректор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генеральный директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90e7f43c-5680-4d0c-9ede-e8e0276bf620">
+    <name>МенеджерПоПродажам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по продажам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbefcfa4-6f70-475f-8761-a92880e920ab">
+    <name>НачальникСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник склада</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
